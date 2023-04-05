@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		814697DE29D6A3D2002538F7 /* iOS_project.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 814697DD29D6A3D2002538F7 /* iOS_project.sqlite */; };
+		8169328629D7244C00DB7154 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8169328529D7244C00DB7154 /* CreateAccountViewController.swift */; };
+		8169328829D7466100DB7154 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8169328729D7466100DB7154 /* User.swift */; };
 		81B6091329C1689000F8F149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6091229C1689000F8F149 /* AppDelegate.swift */; };
 		81B6091529C1689000F8F149 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6091429C1689000F8F149 /* SceneDelegate.swift */; };
 		81B6091729C1689000F8F149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6091629C1689000F8F149 /* ViewController.swift */; };
 		81B6091A29C1689000F8F149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B6091829C1689000F8F149 /* Main.storyboard */; };
 		81B6091C29C1689100F8F149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B6091B29C1689100F8F149 /* Assets.xcassets */; };
 		81B6091F29C1689100F8F149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B6091D29C1689100F8F149 /* LaunchScreen.storyboard */; };
+		81B6092B29C16B6700F8F149 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6092A29C16B6700F8F149 /* HomeViewController.swift */; };
+		81B6092D29C16B7E00F8F149 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6092C29C16B7E00F8F149 /* AboutViewController.swift */; };
+		81B6092F29C16B9500F8F149 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6092E29C16B9500F8F149 /* SettingsViewController.swift */; };
+		81B9F4A929C79F8600593123 /* homePage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81B9F4A829C79F8600593123 /* homePage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		814697DD29D6A3D2002538F7 /* iOS_project.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOS_project.sqlite; sourceTree = "<group>"; };
+		8169328529D7244C00DB7154 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		8169328729D7466100DB7154 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8169328A29D74DCA00DB7154 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8169328B29D74DCA00DB7154 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		81B6090F29C1689000F8F149 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B6091229C1689000F8F149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81B6091429C1689000F8F149 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,10 @@
 		81B6091B29C1689100F8F149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81B6091E29C1689100F8F149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81B6092029C1689100F8F149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B6092A29C16B6700F8F149 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		81B6092C29C16B7E00F8F149 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		81B6092E29C16B9500F8F149 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		81B9F4A829C79F8600593123 /* homePage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homePage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +53,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		814697DC29D6A11A002538F7 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				814697DD29D6A3D2002538F7 /* iOS_project.sqlite */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		8169328929D74DCA00DB7154 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8169328A29D74DCA00DB7154 /* libsqlite3.0.tbd */,
+				8169328B29D74DCA00DB7154 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		81B6090629C1689000F8F149 = {
 			isa = PBXGroup;
 			children = (
 				81B6091129C1689000F8F149 /* Project */,
 				81B6091029C1689000F8F149 /* Products */,
+				8169328929D74DCA00DB7154 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,54 @@
 		81B6091129C1689000F8F149 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				81B6091229C1689000F8F149 /* AppDelegate.swift */,
-				81B6091429C1689000F8F149 /* SceneDelegate.swift */,
-				81B6091629C1689000F8F149 /* ViewController.swift */,
-				81B6091829C1689000F8F149 /* Main.storyboard */,
+				814697DC29D6A11A002538F7 /* database */,
+				81B6093129C2D82400F8F149 /* Classes */,
+				81B6093029C2D80700F8F149 /* Storyboard */,
+				81B6092929C16B3000F8F149 /* ViewController */,
+				81B6092629C168A400F8F149 /* images */,
 				81B6091B29C1689100F8F149 /* Assets.xcassets */,
-				81B6091D29C1689100F8F149 /* LaunchScreen.storyboard */,
 				81B6092029C1689100F8F149 /* Info.plist */,
 			);
 			path = Project;
+			sourceTree = "<group>";
+		};
+		81B6092629C168A400F8F149 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				81B9F4A829C79F8600593123 /* homePage.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		81B6092929C16B3000F8F149 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				81B6091629C1689000F8F149 /* ViewController.swift */,
+				81B6092A29C16B6700F8F149 /* HomeViewController.swift */,
+				81B6092C29C16B7E00F8F149 /* AboutViewController.swift */,
+				81B6092E29C16B9500F8F149 /* SettingsViewController.swift */,
+				8169328529D7244C00DB7154 /* CreateAccountViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		81B6093029C2D80700F8F149 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				81B6091829C1689000F8F149 /* Main.storyboard */,
+				81B6091D29C1689100F8F149 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		81B6093129C2D82400F8F149 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81B6091429C1689000F8F149 /* SceneDelegate.swift */,
+				81B6091229C1689000F8F149 /* AppDelegate.swift */,
+				8169328729D7466100DB7154 /* User.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814697DE29D6A3D2002538F7 /* iOS_project.sqlite in Resources */,
 				81B6091F29C1689100F8F149 /* LaunchScreen.storyboard in Resources */,
 				81B6091C29C1689100F8F149 /* Assets.xcassets in Resources */,
+				81B9F4A929C79F8600593123 /* homePage.jpg in Resources */,
 				81B6091A29C1689000F8F149 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8169328629D7244C00DB7154 /* CreateAccountViewController.swift in Sources */,
 				81B6091729C1689000F8F149 /* ViewController.swift in Sources */,
 				81B6091329C1689000F8F149 /* AppDelegate.swift in Sources */,
 				81B6091529C1689000F8F149 /* SceneDelegate.swift in Sources */,
+				8169328829D7466100DB7154 /* User.swift in Sources */,
+				81B6092D29C16B7E00F8F149 /* AboutViewController.swift in Sources */,
+				81B6092B29C16B6700F8F149 /* HomeViewController.swift in Sources */,
+				81B6092F29C16B9500F8F149 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
